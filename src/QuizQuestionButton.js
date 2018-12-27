@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class QuizQuestionButton extends React.Component {
+class QuizQuestionButton extends Component {
     render() {
         return (
             <li><button>{this.props.button_text}</button></li>
